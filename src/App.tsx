@@ -1,14 +1,66 @@
 import { useState } from 'react'
-import reactLogo from './assets/images/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './components/ui/header/Header'
+import { TopButton } from './components/ui/TopButton'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // this is the main window
+
+
   return (
     <>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Hello</button>
-
-
+      <Header/>
+      <TopButton></TopButton>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
+      <p>fsdsfasdfjasdlfjasl;kdfjaskld;fjaskldjfasl;kdfjasldfdfs</p>
     </>
   )
 }
