@@ -25,11 +25,11 @@ export const TopButton = (props: {}) => {
     <>
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-6 right-6 bg-blue-500 text-white w-12 h-12 rounded-full shadow-lg transition-all duration-500 ${isScrolling ? "translate-y-0 opacity-100" : "translate-y-40 opacity-0" 
+        className={`fixed bottom-10 right-10 bg-slate-800/80 text-white w-12 h-12 rounded-full shadow-lg transition-all duration-500  ${isScrolling ? "translate-y-0 opacity-100" : "translate-y-40 opacity-0"
           }`}
         aria-label="Scroll to top"
       >
-        &#8593;
+        &#8593; {/* arrow encoding */}
       </button>
     </>
   )

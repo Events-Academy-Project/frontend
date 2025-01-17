@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Logo from './Logo'
 
-function Header(props: {}) {
+function Header(props: {
+
+}) {
 
   const [isScrolling, setIsScrolling] = useState(false);
 
+  // detect the scroll position and use it
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolling(window.scrollY > 0);
@@ -23,7 +26,7 @@ function Header(props: {}) {
         }`}
     >
       <div className="px-4 py-2 flex items-center">
-        <Logo /> 
+        <Logo />
       </div>
       <nav className="px-4">
         <ul className="flex space-x-4">
