@@ -1,8 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import Logo from './Logo'
+import { ThemeSwitch } from './ThemeSwitch';
+import useLocalStorage from '../../../hooks/useLocalStorage';
+
+type theme = "light" | "dark";
+const [theme, setTheme] = useLocalStorage("theme", "light" as theme);
+
+const changeTheme = () => {
+  setTheme(theme === "light" ? "dark" : "light")
+}
 
 function Header(props: {
-
+  
 }) {
 
   const [isScrolling, setIsScrolling] = useState(false);
@@ -30,9 +39,7 @@ function Header(props: {
       </div>
       <nav className="px-4">
         <ul className="flex space-x-4">
-          <li className="text-white">Home</li>
-          <li className="text-white">About</li>
-          <li className="text-white">Contact</li>
+          <ThemeSwitch />
         </ul>
       </nav>
     </header>
